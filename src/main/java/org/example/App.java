@@ -22,9 +22,11 @@ public class App
         numbers[0] = 0.5f;
         numbers[1] = 0.7f;
         numbers[2] = 0.9f;
-        numbers[3] = 0.1f;
-        System.out.println  (numbers);
-
-
+for(int i=0;i<3;i++)
+{  System.out.println  (numbers[i]);}
+Float sum=numbers[0]+numbers[1]+ numbers[2];
+        {  System.out.println  (sum);}
+        Float average=sum/3;
+        {  System.out.println  (average);}
     }
 }
